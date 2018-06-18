@@ -1,11 +1,14 @@
-# **[Intensify]**
+# **Intensify**
 
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
+
 ## Description
 
 
+## User Story
 
+As a user i want to 
 ## Specifications
 
 
