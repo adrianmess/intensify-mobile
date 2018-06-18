@@ -8,7 +8,20 @@
 
 ## User Story
 
-As a user i want to 
+As a user I want to be able to sign-up or sign-in with my social media accounts.
+
+As a user I want to find a workout based on the muscle group
+
+As a user I want to choose whether the workout should be for building muscle, strength training or maintenance.
+
+As a user I want the app to tell me how many reps to do on a machine based on if i want to build muscle, strength train, or for maintenance/endurance.
+
+As a user I want to be able to either choose a workout by machine or by muscle group i want to work on.
+
+As a user I want to be able to store what weights i used on the machine 
+
+
+
 ## Specifications
 
 
