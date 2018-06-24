@@ -7,10 +7,28 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
+The Intensity web application is intended to make it easy for any user to achieve their workout goals at home or in a gym without the need for a trainer. It will allow the user to customize their workout by machine, weights, or body resistant. The user also chooses whether they want to build muscle, tone muscle or strengthen muscle. They will then be given a visual of the workout equipment or workout machine or weights. They will also receive a description of how many reps to do and how much weight or resistance to use if it applies. The user will be able to store previous workouts and the description of the workout, which includes the weight or resistance number used, how many reps, duration and or length (when running)
+
+* Choose which muscle groups they want to work on.
+* Choose between the following 3 workout types:
+  1. Building Muscle
+  1. Toning Muscle
+  1. Strengthening Muscle
+* Choose if they want to use a machine, free weights or body resistance.
+  * A picture of what the machine looks like and a description of the machine, how to use it, how not to use it will be displayed. 
+
+in achieving their workin choosing workouts
+
+that are  allow the user to customize their workout according to the users specific needs and assist the user in knowing machines to use,
+
+allowing the user to pick the type of workout they want and allow  work on a specific area of the body.
+
+The app would allow Pick with muscle group they want to work on, the type of workout they want, like one intended for toning muscle, one for building muscle, and one for
+
 
 ## Research
 
-
+##### Protype early preview:<br>
 <img src="/src/assets/img/github/small-preview.gif">
 ## User Story
 As a user I want to be able to sign-up or sign-in with my social media accounts.
