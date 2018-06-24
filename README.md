@@ -15,7 +15,7 @@ The Intensity web application is intended to make it easy for any user to achiev
   1. Toning Muscle
   1. Strengthening Muscle
 * Choose if they want to use a machine, free weights or body resistance.
-  * A picture of what the machine looks like and a description of the machine, how to use it, how not to use it will be displayed. 
+  * A picture of what the machine looks like and a description of the machine, how to use it, how not to use it will be displayed.
 
 in achieving their workin choosing workouts
 
@@ -25,11 +25,28 @@ allowing the user to pick the type of workout they want and allow  work on a spe
 
 The app would allow Pick with muscle group they want to work on, the type of workout they want, like one intended for toning muscle, one for building muscle, and one for
 
+###### Protype early preview:<br>
+<img src="/src/assets/img/github/small-preview.gif">
 
 ## Research
 
-##### Protype early preview:<br>
-<img src="/src/assets/img/github/small-preview.gif">
+#### Major Muscle Groups
+
+11 Major Muscle Groups
+
+    Quadriceps
+    Hamstrings
+    Calves
+    Chest
+    Back
+    Shoulders
+    Triceps
+    Biceps
+    Forearms
+    Trapezius
+    Abs
+
+
 ## User Story
 As a user I want to be able to sign-up or sign-in with my social media accounts.
 
