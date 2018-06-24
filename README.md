@@ -13,8 +13,8 @@ Also will help prevent people from using workout machines incorrectly, which can
 
 <table>
     <tr>
-    <td><img src="https://media.giphy.com/media/vYNtXYafKufde/giphy.gif" height="100"></td>
-    <td><img src="https://media.giphy.com/media/11RRDZCnvvyZdC/giphy.gif" height="100"></td>
+    <td><img src="https://media.giphy.com/media/vYNtXYafKufde/giphy.gif" height="200"></td>
+    <td><img src="https://media.giphy.com/media/11RRDZCnvvyZdC/giphy.gif" height="200"></td>
     <td><img src="https://media.giphy.com/media/hpqeJ2vEHOMTe/giphy.gif" height="100"></td>
   </tr>
 </table>
@@ -36,7 +36,6 @@ Also will help prevent people from using workout machines incorrectly, which can
 ##### Possible options of allowing users to choose muscle groups visually.
 <table>
 <tr>
-
   <td>
   <p> </p>
   <img src="/src/assets/img/github/anatomy-ex-1.jpg">
@@ -44,9 +43,10 @@ Also will help prevent people from using workout machines incorrectly, which can
   <td>
   <img src="/src/assets/img/github/anatomy-ex-2.jpg" height="275">
   </td>
-
 </tr>
 </table>
+
+
 
 <div style="height: 50px;"></div>
 
@@ -127,7 +127,8 @@ Open **Intensify** folder from terminal.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-* The following command will start the server and automatically open the browser.      
+* The following command will start the server and automatically open the browser.
+
       $ng serve --open
 
 ## Further help
