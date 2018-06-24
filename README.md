@@ -17,18 +17,17 @@ The Intensity web application is intended to make it easy for any user to achiev
 * Choose if they want to use a machine, free weights or body resistance.
   * A picture of what the machine looks like and a description of the machine, how to use it, how not to use it will be displayed.
 
-in achieving their workin choosing workouts
-
-that are  allow the user to customize their workout according to the users specific needs and assist the user in knowing machines to use,
-
-allowing the user to pick the type of workout they want and allow  work on a specific area of the body.
-
-The app would allow Pick with muscle group they want to work on, the type of workout they want, like one intended for toning muscle, one for building muscle, and one for
 
 ###### Protype early preview:<br>
 <img src="/src/assets/img/github/small-preview.gif">
 
 ## Research
+
+#### Different Training Methods
+    Strength Training
+    Muscle Building
+    Muscular Endurance
+
 
 #### Major Muscle Groups
 
@@ -45,6 +44,7 @@ The app would allow Pick with muscle group they want to work on, the type of wor
     Forearms
     Trapezius
     Abs
+
 
 
 ## User Story
