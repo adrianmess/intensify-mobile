@@ -11,13 +11,18 @@ The Intensity web application is intended to make it easy for any user to achiev
 
 Also will help prevent people from using workout machines incorrectly, which can lead to them being recorded and turned into a meme. Ref to image below for example.
 
-<img src="https://media.giphy.com/media/vYNtXYafKufde/giphy.gif" height="100">
-<img src="https://media.giphy.com/media/Ye3jIvHlhzdSw/giphy.gif" height="100">
-<img src="https://media.giphy.com/media/hpqeJ2vEHOMTe/giphy.gif" height="100">
+<table>
+    <tr>
+    <td><img src="https://media.giphy.com/media/vYNtXYafKufde/giphy.gif" height="100"></td>
+    <td><img src="https://media.giphy.com/media/11RRDZCnvvyZdC/giphy.gif" height="100"></td>
+    <td><img src="https://media.giphy.com/media/hpqeJ2vEHOMTe/giphy.gif" height="100"></td>
+  </tr>
+</table>
+
+<div style="height: 15px;"> </div>
 
 
-
-
+#### Options
 * Choose which muscle groups they want to work on.
 * Choose between the following 3 workout types:
   1. Building Muscle
@@ -26,6 +31,24 @@ Also will help prevent people from using workout machines incorrectly, which can
 * Choose if they want to use a machine, free weights or body resistance.
   * A picture of what the machine looks like and a description of the machine, how to use it, how not to use it will be displayed.
 
+<div style="height: 15px;"> </div>
+
+##### Possible options of allowing users to choose muscle groups visually.
+<table>
+<tr>
+
+  <td>
+  <p> </p>
+  <img src="/src/assets/img/github/anatomy-ex-1.jpg">
+  </td>
+  <td>
+  <img src="/src/assets/img/github/anatomy-ex-2.jpg" height="275">
+  </td>
+
+</tr>
+</table>
+
+<div style="height: 50px;"></div>
 
 ###### Protype early preview:<br>
 <img src="/src/assets/img/github/small-preview.gif">
@@ -40,7 +63,7 @@ Also will help prevent people from using workout machines incorrectly, which can
 
 #### Major Muscle Groups
 
-11 Major Muscle Groups
+11* Major Muscle Groups
 
     Quadriceps
     Hamstrings
@@ -70,7 +93,7 @@ As a user I want to be able to either choose a workout by machine or by muscle g
 As a user I want to be able to store what weights i used on the machine
 
 ## Specifications
-
+###NOTICE: This project is currently running in Angular but I plan on switching it to REACT over the next couple of weeks.
 <!-- ## Setup/Installation Requirements
 * To view project code, _clone repository from_
 * To view project, _open in web browser_
