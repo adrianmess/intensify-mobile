@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Research
 
+
+<img src="/src/assets/img/github/small-preview.gif">
 ## User Story
 As a user I want to be able to sign-up or sign-in with my social media accounts.
 
