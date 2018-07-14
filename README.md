@@ -1,9 +1,20 @@
 # Intensify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+This project will be created using React Native generated with [#########](https://github.com/##################) version 1.6.5.
 
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
+
+## Research using React Native
+
+React Native
+
+1. Navigation - Routing Library
+  * https://facebook.github.io/react-native/docs/navigation
+    * http://airbnb.io/native-navigation/
+    * https://github.com/wix/react-native-navigation
+
+    -> Decided to go with airbnb native-navigation library.
 
 ## Description
 
@@ -52,6 +63,12 @@ Also will help prevent people from using workout machines incorrectly, which can
 
 ###### Protype early preview:<br>
 <img src="/src/assets/img/github/small-preview.gif">
+
+
+## React Component Tree Diagram
+#### Work In Progress
+
+<img src="/src/assets/component-tree-diagram.png">
 
 ## Research
 
@@ -107,9 +124,9 @@ As a user I want to be able to store what weights i used on the machine
   * https://www.npmjs.com/get-npm
 
 
-  * Install Angularcli
+  * Install #########
 
-      $ npm install -g @angular/cli@1.6.5
+      $ npm install -g ##############
 
 
 ### Clone
@@ -133,7 +150,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [#################](https://github.com/######################).
 
 ## Known Bugs
   * No known bugs at this time.
@@ -141,17 +158,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Technologies Used
 
-* HTML
-* CSS
-  * Bootstrap _(Bootstrap 4.1)_
-* JavaScript
-  * JQuery _(jQuery 3.2.1)_
-* Node.js
-* Webpack
-* ESLint
-* Jasmine
-* Karma
-* Babel
+* ##########################
+
 
 ## License
 
