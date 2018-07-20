@@ -1,6 +1,41 @@
 # Intensify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Project’s Purpose or Goal:
+
+* Allow user to choose a workout based on: Gym Equipment, Free Weights or Body Resistance and then choose which muscle group to work on.
+* The user would then be able to choose the intensity or type of workout that would allow them to focus on Muscle Tone, Building Muscle or Muscle Endurance.
+* Would also show Anatomy of human body with muscle groups the user could click on instead of scrolling through list of names of muscles. This would be beneficial if the user didn’t know what the muscle group was called. Of if the user just preferred that method. 
+
+* User would given a guide on how to use the equipment, weights or body resistance to achieve workout goal. Guide will change depending on the type/intensity of the workout.
+  * Would show picture of gym equipment or free weights or picture of person doing specified workout based on body resistance.
+  * Would like to include warning of how not to use workout machine or incorrect ways of doing body resistant workout.
+
+
+### List the absolute minimum features the project requires to meet this purpose or goal:
+ * Allow user to choose workout with Gym Equipment, Free Weights or Body Resistance
+ * Provide guide (visual, verbal or both) on how to use Gym Equipment, Free Weights or Body Weight Exercise
+
+### What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and yourlanguage) will you use to create this MVP? List them all here. Be specific.
+* React JS
+*  Firebase
+
+### If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+
+* Visual muscle Anatomy - So user can click muscle group rather than selecting by Name of muscle group.
+* User Login - Allow user to login and track their workout history.
+  * Sign-in with google or facebook account.
+* Use D3 or something similar to graph workout history
+* Integrate workout
+* EXTREME REACH GOAL
+  * Leverage the following API’s to allow phone to sync with gym equipment
+    * https://www.wahoofitness.com/development-api
+    * https://lifefitness.com/home/products/lfconnect-app#developers
+
+### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+* Extreme Reach Goal
+  * https://www.wahoofitness.com/development-api
+  * https://lifefitness.com/home/products/lfconnect-app#developers
+
 
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
