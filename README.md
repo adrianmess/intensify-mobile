@@ -44,7 +44,8 @@
 * Finish generic cover letter - model after completed cover letter made for <b>Bigleaf</b>
 * Merge react-native branch into master
   * Delete Angular files from parent directory
-* buy domain adriancodes.com
+* Buy domain adriancodes.com
+  * research using portfolio or building own site.
 
 <br>
 <br>
