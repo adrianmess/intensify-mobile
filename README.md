@@ -4,7 +4,7 @@
 
 * Allow user to choose a workout based on: Gym Equipment, Free Weights or Body Resistance and then choose which muscle group to work on.
 * The user would then be able to choose the intensity or type of workout that would allow them to focus on Muscle Tone, Building Muscle or Muscle Endurance.
-* Would also show Anatomy of human body with muscle groups the user could click on instead of scrolling through list of names of muscles. This would be beneficial if the user didn’t know what the muscle group was called. Of if the user just preferred that method. 
+* Would also show Anatomy of human body with muscle groups the user could click on instead of scrolling through list of names of muscles. This would be beneficial if the user didn’t know what the muscle group was called. Of if the user just preferred that method.
 
 * User would given a guide on how to use the equipment, weights or body resistance to achieve workout goal. Guide will change depending on the type/intensity of the workout.
   * Would show picture of gym equipment or free weights or picture of person doing specified workout based on body resistance.
@@ -35,6 +35,36 @@
 * Extreme Reach Goal
   * https://www.wahoofitness.com/development-api
   * https://lifefitness.com/home/products/lfconnect-app#developers
+
+
+
+
+### July 20th - Work history & Research
+
+* Finish generic cover letter - model after completed cover letter made for <b>Bigleaf</b>
+* Merge react-native branch into master
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #### By Adrian Messado
