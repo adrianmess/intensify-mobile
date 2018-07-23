@@ -5,9 +5,18 @@ import { Text } from 'react-native';
 
 //Make a component
 const Header = () => {
-  return <Text>Intensify</Text>;
+  const { textStyle } = styles;
+
+  return <Text style={textStyle}>Intensify</Text>;
+
 };
 
+
+const styles = {
+  textStyle: {
+    fontSize: 20
+  },
+};
 
 //Make component available to other parts of the app
 export default Header;
