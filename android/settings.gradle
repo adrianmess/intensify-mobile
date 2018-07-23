@@ -1,0 +1,3 @@
+rootProject.name = 'intenfisy'
+
+include ':app'
