@@ -23,15 +23,16 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
+      <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradient}>
+        <View style={styles.container}>
 
-      <View style={styles.container}>
-        <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={styles.linearGradient}>
           <Header />
-        </LinearGradient>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
+
+          <Text style={styles.welcome}>Welcome to React Native!</Text>
+          <Text style={styles.instructions}>To get started, edit App.js</Text>
+          <Text style={styles.instructions}>{instructions}</Text>
+        </View>
+      </LinearGradient>
 
 
     );
@@ -43,16 +44,22 @@ const styles = StyleSheet.create({
     flex: 1,
     // justifyContent: 'center',
     alignItems: 'center',
-    // backgroundColor: '#F5FCFF',
+  },
+  linearGradient: {
+    flex: 1,
+    paddingLeft: 15,
+    paddingRight: 15,
+    borderRadius: 5
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color: 'white',
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: 'white',
     marginBottom: 5,
   },
 });
