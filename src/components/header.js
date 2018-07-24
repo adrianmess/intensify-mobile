@@ -4,10 +4,10 @@ import { Text } from 'react-native';
 
 
 //Make a component
-const Header = () => {
+const Header = (props) => {
   const { textStyle } = styles;
 
-  return <Text style={textStyle}>Intensify</Text>;
+  return <Text style={textStyle}>{props.headerText}</Text>;
 
 };
 
