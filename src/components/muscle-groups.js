@@ -10,10 +10,10 @@ class MuscleGroups extends Component {
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradient}>
       <View style={styles.muscleContainer}>
           <Button onPress={Actions.arms} style={styles.muscleGrpTxt}>Arms</Button>
-          <Text style={styles.muscleGrpTxt}>Back</Text>
-          <Text style={styles.muscleGrpTxt}>Chest</Text>
-          <Text style={styles.muscleGrpTxt}>Legs</Text>
-          <Text style={styles.muscleGrpTxt}>Shoulders</Text>
+          <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>Back</Button>
+          <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>Chest</Button>
+          <Button onPress={Actions.legs} style={styles.muscleGrpTxt}>Legs</Button>
+          <Button onPress={Actions.shoulders} style={styles.muscleGrpTxt}>Shoulders</Button>
         </View>
       </LinearGradient>
     );
