@@ -15,12 +15,7 @@ import Header from './src/components/header';
 
 const backgroundImg = require('./assets/img/login-bg-small.jpg');
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-  'Double tap R on your keyboard to reload,\n' +
-  'Shake or press menu button for dev menu',
-});
+
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -31,8 +26,7 @@ export default class App extends Component<Props> {
           <Text style={styles.title}>Intensify</Text>
           <Header headerText={'Header Transform'}/>
           <Text style={styles.welcome}>Welcome</Text>
-          <Text style={styles.instructions}>To get started, edit App.js</Text>
-          <Text style={styles.instructions}>{instructions}</Text>
+          <Text stlye={styles.continueBtn}>Continue</Text>
         </View>
       </LinearGradient>
 
@@ -47,6 +41,9 @@ const styles = StyleSheet.create({
     // justifyContent: 'center',
     alignItems: 'center',
   },
+  title: {
+    color: 'white',
+  },
   linearGradient: {
     flex: 1,
     paddingLeft: 15,
@@ -59,10 +56,5 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
     color: 'white',
-  },
-  instructions: {
-    textAlign: 'center',
-    color: 'white',
-    marginBottom: 5,
   },
 });
