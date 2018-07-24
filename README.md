@@ -49,10 +49,10 @@ Also will help prevent people from using workout machines incorrectly, which can
 <tr>
   <td>
   <p> </p>
-  <img src="/src/assets/img/github/anatomy-ex-1.jpg">
+  <img src="/github-assets/img/github/anatomy-ex-1.jpg">
   </td>
   <td>
-  <img src="/src/assets/img/github/anatomy-ex-2.jpg" height="275">
+  <img src="/github-assets/img/github/anatomy-ex-2.jpg" height="275">
   </td>
 </tr>
 </table>
@@ -62,13 +62,13 @@ Also will help prevent people from using workout machines incorrectly, which can
 <div style="height: 50px;"></div>
 
 ###### Protype early preview:<br>
-<img src="/src/assets/img/github/small-preview.gif">
+<img src="/github-assets/img/github/small-preview.gif">
 
 
 ## React Component Tree Diagram
 #### Work In Progress
 
-<img src="/src/assets/component-tree-diagram.png">
+<img src="/github-assets/component-tree-diagram.png">
 
 ## Research
 
