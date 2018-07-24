@@ -3,13 +3,13 @@ import { StyleSheet, View, Text } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 
-class Back extends Component {
+class Backs extends Component {
   render() {
     return (
-      <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradientBack}>
-      <View style={styles.backContainer}>
-          <Text style={styles.backGrpTxt}>Back</Text>
-  
+      <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradientBacks}>
+      <View style={styles.backsContainer}>
+          <Text style={styles.backsGrpTxt}>Back</Text>
+
         </View>
       </LinearGradient>
     );
@@ -17,15 +17,15 @@ class Back extends Component {
 }
 
 const styles = StyleSheet.create ({
-  linearGradientBack: {
+  linearGradientBacks: {
     flex: 1,
   },
-  backContainer: {
+  backsContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  backGrpTxt: {
+  backsGrpTxt: {
     color: 'white',
     margin: 10,
   },
@@ -34,4 +34,4 @@ const styles = StyleSheet.create ({
 
 
 
-export default Back;
+export default Backs;
