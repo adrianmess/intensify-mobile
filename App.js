@@ -7,10 +7,13 @@
 */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, Image} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 import Header from './src/components/header';
+
+
+const backgroundImg = require('./assets/img/login-bg-small.jpg');
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -25,10 +28,9 @@ export default class App extends Component<Props> {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradient}>
         <View style={styles.container}>
-
-          <Header />
-
-          <Text style={styles.welcome}>Welcome to React Native!</Text>
+          <Text style={styles.title}>Intensify</Text>
+          <Header headerText={'Header Transform'}/>
+          <Text style={styles.welcome}>Welcome</Text>
           <Text style={styles.instructions}>To get started, edit App.js</Text>
           <Text style={styles.instructions}>{instructions}</Text>
         </View>
@@ -49,10 +51,11 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingLeft: 15,
     paddingRight: 15,
-    borderRadius: 5
+    borderRadius: 5,
+
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 40,
     textAlign: 'center',
     margin: 10,
     color: 'white',
