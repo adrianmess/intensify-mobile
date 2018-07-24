@@ -8,7 +8,8 @@ class Chest extends Component {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradientChest}>
       <View style={styles.chestContainer}>
-          <Text style={styles.chestGrpTxt}>Chest</Text>
+          <Text style={styles.chestGrpTxt}>Clavicular Pectoralis</Text>
+          <Text style={styles.chestGrpTxt}>Pectoralis Major</Text>
 
         </View>
       </LinearGradient>

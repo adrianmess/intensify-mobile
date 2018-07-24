@@ -8,7 +8,7 @@ class Backs extends Component {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradientBacks}>
       <View style={styles.backsContainer}>
-          <Text style={styles.backsGrpTxt}>Back</Text>
+          <Text style={styles.backsGrpTxt}>Trapezius</Text>
 
         </View>
       </LinearGradient>

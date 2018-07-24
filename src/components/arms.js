@@ -7,8 +7,10 @@ class Arms extends Component {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradientArms}>
       <View style={styles.armsContainer}>
-          <Text style={styles.armsGrpTxt}>Arms</Text>
-  
+          <Text style={styles.armsGrpTxt}>Triceps</Text>
+          <Text style={styles.armsGrpTxt}>Biceps</Text>
+          <Text style={styles.armsGrpTxt}>Forearms</Text>
+
         </View>
       </LinearGradient>
     );

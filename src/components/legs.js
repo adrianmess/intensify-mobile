@@ -8,7 +8,9 @@ class Legs extends Component {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradientLegs}>
       <View style={styles.legsContainer}>
-          <Text style={styles.legsGrpTxt}>Legs</Text>
+          <Text style={styles.legsGrpTxt}>Quadriceps</Text>
+          <Text style={styles.legsGrpTxt}>Hamstrings</Text>
+          <Text style={styles.legsGrpTxt}>Calves</Text>
 
         </View>
       </LinearGradient>
