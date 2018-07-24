@@ -21,9 +21,22 @@
       }
     },
     "Triceps": {
-      "": ""
-    },
-    "": 3
+      "Flat Close Grip Bench Press": {
+        "": ""
+      },
+      "Close Grip Push-Ups": {
+        "": ""
+      },
+      "Laying Triceps Extensions": {
+        "": ""
+      },
+      "Cable Press-Downs": {
+        "": ""
+      },
+      "Bench Dips": {
+        "": ""
+      }
+    }
   },
   "back": {
     "": 3
@@ -33,12 +46,37 @@
   },
   "legs": {
     "Hamstring": {
-      "": ""
+      "Romanian Deadlifts": {
+        "": ""
+      },
+      "Straight Leg Deadlifts": {
+        "": ""
+      },
+      "Sumo Deadlifts": {
+        "": ""
+      },
+      "Glute-Ham Raises": {
+        "": ""
+      },
+      "Hyperextensions": {
+        "": ""
+      },
+      "Cable Pull-Throughs": {
+        "": ""
+      },
+      "Good-Mornings": {
+        "": ""
+      },
+      "Leg Curls": {
+        "": ""
+      }
     },
     "Quadriceps": {
+      "Quadriceps": {
+        "": ""
+      },
       "": ""
-    },
-    "": 3
+    }
   },
   "shoulders": {
     "": 3
