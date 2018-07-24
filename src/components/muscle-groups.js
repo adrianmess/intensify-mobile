@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-
+import {Actions} from 'react-native-router-flux';
+import Button from 'react-native-button';
 
 class MuscleGroups extends Component {
   render() {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradient}>
       <View style={styles.muscleContainer}>
-          <Text style={styles.muscleGrpTxt}>Arms</Text>
+          <Button onPress={Actions.arms} style={styles.muscleGrpTxt}>Arms</Button>
           <Text style={styles.muscleGrpTxt}>Back</Text>
           <Text style={styles.muscleGrpTxt}>Chest</Text>
           <Text style={styles.muscleGrpTxt}>Legs</Text>
