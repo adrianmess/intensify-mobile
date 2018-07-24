@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import {Actions} from 'react-native-router-flux';
+import Button from 'react-native-button'
 
 const Welcome = () => {
   const { textStyle } = styles;
@@ -10,7 +12,7 @@ const Welcome = () => {
         <Text style={styles.title}>Intensify</Text>
 
         <Text style={styles.welcome}>Welcome</Text>
-        <Text stlye={styles.continueBtn}>Continue</Text>
+        <Button onPress={Actions.musclegroups} stlye={styles.continueBtn}>Continue</Button>
       </View>
     </LinearGradient>
   );
