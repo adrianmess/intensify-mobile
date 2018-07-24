@@ -16,6 +16,7 @@ const styles = {
   textStyle: {
     fontSize: 20,
     color: 'white',
+    top: 5,
   },
 };
 
