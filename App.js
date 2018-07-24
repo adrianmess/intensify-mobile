@@ -6,30 +6,23 @@
 * @flow
 */
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {Platform, StyleSheet, Text, View, Image} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 import Header from './src/components/header';
-
+import Welcome from './src/components/welcome';
+import Router from './src/Router';
 
 const backgroundImg = require('./assets/img/login-bg-small.jpg');
-
 
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradient}>
-        <View style={styles.container}>
-          <Text style={styles.title}>Intensify</Text>
-          <Header headerText={'Header Transform'}/>
-          <Text style={styles.welcome}>Welcome</Text>
-          <Text stlye={styles.continueBtn}>Continue</Text>
-        </View>
-      </LinearGradient>
 
+      <Router />
 
     );
   }
