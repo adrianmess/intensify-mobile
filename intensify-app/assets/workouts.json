@@ -1,5 +1,5 @@
 {
-  "arms": {
+  "Arms": {
     "Biceps": {
       "Dumbbell Curls": {
         "": ""
@@ -38,13 +38,74 @@
       }
     }
   },
-  "back": {
-    "": 3
+  "Back": {
+    "Pull-Ups": {
+      "": ""
+    },
+    "Chin-Ups": {
+      "": ""
+    },
+    "Lat Pull-Downs": {
+      "": ""
+    },
+    "Bent Over Barbell": {
+      "": ""
+    },
+    "T-Bar Rows": {
+      "": ""
+    },
+    "Seated Cable Rows": {
+      "": ""
+    },
+    "Chest Supported Barbell": {
+      "": ""
+    },
+    "Chest Suppported Machine Rows": {
+      "": ""
+    },
+    "Inverted Rows": {
+      "": ""
+    },
+    "Barbell, Dumbbell or Machine Shrugs": {
+      "": ""
+    }
   },
-  "chest": {
-    "": 3
+  "Chest": {
+    "Flat Bench Press": {
+      "": ""
+    },
+    "Incline Bench Press": {
+      "": ""
+    },
+    "Decline Bench Press": {
+      "": ""
+    },
+    "Flat Chest Press Machine": {
+      "": ""
+    },
+    "Incline Chest Press Machine": {
+      "": ""
+    },
+    "Decline Chest Press Machine": {
+      "": ""
+    },
+    "Push-Ups": {
+      "": ""
+    },
+    "Flat Dumbbell Flyes": {
+      "": ""
+    },
+    "Decline Dumbbell Flyes": {
+      "": ""
+    },
+    "Pec Deck Machine": {
+      "": ""
+    },
+    "Cable Crossovers/Cable Flyes": {
+      "": ""
+    }
   },
-  "legs": {
+  "Legs": {
     "Hamstring": {
       "Romanian Deadlifts": {
         "": ""
@@ -72,13 +133,59 @@
       }
     },
     "Quadriceps": {
-      "Quadriceps": {
+      "Squats": {
         "": ""
       },
-      "": ""
+      "Front Squats": {
+        "": ""
+      },
+      "Split Squats": {
+        "": ""
+      },
+      "Lunges": {
+        "": ""
+      },
+      "Step-Ups": {
+        "": ""
+      },
+      "Long Press": {
+        "": ""
+      },
+      "Single Leg Press": {
+        "": ""
+      },
+      "Machine Squat": {
+        "": ""
+      },
+      "Leg Extensions": {
+        "": ""
+      }
     }
   },
-  "shoulders": {
-    "": 3
+  "Shoulders": {
+    "Seated Overhead Press": {
+      "": ""
+    },
+    "Standing Overhead Press": {
+      "": ""
+    },
+    "Overhead Machine Press": {
+      "": ""
+    },
+    "Arnold Press": {
+      "": ""
+    },
+    "Machine Upright Rows": {
+      "": ""
+    },
+    "Machine Lateral Raises": {
+      "": ""
+    },
+    "Machine Front Raises": {
+      "": ""
+    },
+    "Machine Rear Delt Rows": {
+      "": ""
+    }
   }
 }
