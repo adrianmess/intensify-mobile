@@ -1,0 +1,46 @@
+{
+  "arms": {
+    "Biceps": {
+      "Dumbbell Curls": {
+        "": ""
+      },
+      "Standing Barbell": {
+        "": ""
+      },
+      "Hammer Curls": {
+        "": ""
+      },
+      "Concentration Curls": {
+        "": ""
+      },
+      "Cable Curls": {
+        "": ""
+      },
+      "Biceps Curl Machine": {
+        "": ""
+      }
+    },
+    "Triceps": {
+      "": ""
+    },
+    "": 3
+  },
+  "back": {
+    "": 3
+  },
+  "chest": {
+    "": 3
+  },
+  "legs": {
+    "Hamstring": {
+      "": ""
+    },
+    "Quadriceps": {
+      "": ""
+    },
+    "": 3
+  },
+  "shoulders": {
+    "": 3
+  }
+}
