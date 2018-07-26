@@ -28,7 +28,7 @@ class MuscleGroups extends Component {
               <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>
               <Image source={require('../../assets/img/muscle-buttons/chest-icon.png')} />
               </Button>
-              <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>Chest</Button>
+              <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>Chest | Abs</Button>
             </View>
           </View>
           <View style={styles.muscleContainerBottom}>
@@ -57,6 +57,7 @@ const styles = StyleSheet.create ({
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'space-between',
+    overflow:'visible',
   },
   muscleContainerTop: {
     flex: 1,
@@ -76,8 +77,9 @@ const styles = StyleSheet.create ({
       justifyContent: 'space-around',
   },
   muscleIconTextGrp: {
-    width: 100,
+    width: 150,
     height: 150,
+    alignItems: 'center',
   },
   muscleGrpTxt: {
     color: 'white',
