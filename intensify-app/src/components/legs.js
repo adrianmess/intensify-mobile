@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, Image } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-
+import {Actions} from 'react-native-router-flux';
+import Button from 'react-native-button';
 
 class Legs extends Component {
   render() {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradientLegs}>
-      <View style={styles.legsContainer}>
-          <Text style={styles.legsGrpTxt}>Quadriceps</Text>
-          <Text style={styles.legsGrpTxt}>Hamstrings</Text>
-          <Text style={styles.legsGrpTxt}>Calves</Text>
-
+        <View style={styles.legsMusclesGrpContainer}>
+          <View style={styles.legsMusclesSingle}>
+            <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>
+              <Image source={require('../../assets/img/muscle-images/legs/calf-muslces.png')} style={styles.muscleImages} />
+            </Button>
+            <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>Calf Muscle</Button>
+          </View>
+          <View style={styles.legsMusclesSingle}>
+            <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>
+              <Image source={require('../../assets/img/muscle-images/legs/full-legs.png')} style={styles.muscleImages} />
+            </Button>
+            <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>Full Legs</Button>
+          </View>
+          <View style={styles.legsMusclesSingle}>
+            <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>
+              <Image source={require('../../assets/img/muscle-images/legs/glute_quads_calf_muscles.png')} style={styles.muscleImages} />
+            </Button>
+            <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>Glutes | Quads</Button>
+          </View>
         </View>
       </LinearGradient>
     );
@@ -21,13 +36,23 @@ class Legs extends Component {
 const styles = StyleSheet.create ({
   linearGradientLegs: {
     flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
   },
-  legsContainer: {
+  legsMusclesGrpContainer: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    marginTop: 50,
   },
-  legsGrpTxt: {
+  muscleImages: {
+    alignSelf: 'center',
+    height: 150,
+    width: 150,
+  },
+
+  muscleGrpTxt: {
     color: 'white',
     margin: 10,
   },
