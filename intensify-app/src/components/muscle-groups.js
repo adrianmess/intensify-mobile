@@ -8,17 +8,33 @@ class MuscleGroups extends Component {
   render() {
     return (
       <LinearGradient colors={['#abd264', '#0ab8af']} style={styles.linearGradient}>
-      <View style={styles.muscleContainer}>
-          <Button onPress={Actions.arms} style={styles.muscleGrpTxt}>Arms</Button>
-          <Image source={require('../../assets/img/muscle-buttons/arms-icon.png')} />
-          <Image source={require('../../assets/img/muscle-buttons/back-icon.png')} />
-          <Image source={require('../../assets/img/muscle-buttons/chest-icon.png')} />
-          <Image source={require('../../assets/img/muscle-buttons/legs-icon.png')} />
-          <Image source={require('../../assets/img/muscle-buttons/shoulders-icon.png')} />
-          <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>Back</Button>
-          <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>Chest</Button>
-          <Button onPress={Actions.legs} style={styles.muscleGrpTxt}>Legs</Button>
-          <Button onPress={Actions.shoulders} style={styles.muscleGrpTxt}>Shoulders</Button>
+        <View style={styles.muscleContainer}>
+          <View style={styles.muscleContainerTop}>
+            <View style={styles.muscleIconTextGrp}>
+              <Image source={require('../../assets/img/muscle-buttons/arms-icon.png')} />
+              <Button onPress={Actions.arms} style={styles.muscleGrpTxt}>Arms</Button>
+            </View>
+            <View style={styles.muscleIconTextGrp}>
+              <Image source={require('../../assets/img/muscle-buttons/back-icon.png')} />
+              <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>Back</Button>
+            </View>
+          </View>
+          <View style={styles.muscleContainerCenter}>
+            <View style={styles.muscleIconTextGrp}>
+              <Image source={require('../../assets/img/muscle-buttons/chest-icon.png')} />
+              <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>Chest</Button>
+            </View>
+          </View>
+          <View style={styles.muscleContainerBottom}>
+            <View style={styles.muscleIconTextGrp}>
+              <Image source={require('../../assets/img/muscle-buttons/legs-icon.png')} />
+              <Button onPress={Actions.legs} style={styles.muscleGrpTxt}>Legs</Button>
+            </View>
+            <View style={styles.muscleIconTextGrp}>
+              <Image source={require('../../assets/img/muscle-buttons/shoulders-icon.png')} />
+              <Button onPress={Actions.shoulders} style={styles.muscleGrpTxt}>Shoulders</Button>
+            </View>
+          </View>
         </View>
       </LinearGradient>
     );
@@ -26,13 +42,32 @@ class MuscleGroups extends Component {
 }
 
 const styles = StyleSheet.create ({
+
   linearGradient: {
     flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
   },
-  muscleContainer: {
+  muscleContainerTop: {
     flex: 1,
-    justifyContent: 'center',
+    flexDirection: 'row',
+    marginBottom: 150,
+    marginTop: '25%',
+    justifyContent: 'space-around',
+  },
+  muscleContainerCenter: {
+    flex: 1,
     alignItems: 'center',
+    marginBottom: 150,
+  },
+  muscleContainerBottom: {
+    flex: 1,
+    flexDirection: 'row',
+      justifyContent: 'space-around',
+  },
+  muscleIconTextGrp: {
+    width: 100,
+    height: 150,
   },
   muscleGrpTxt: {
     color: 'white',
