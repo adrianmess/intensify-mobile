@@ -11,27 +11,37 @@ class MuscleGroups extends Component {
         <View style={styles.muscleContainer}>
           <View style={styles.muscleContainerTop}>
             <View style={styles.muscleIconTextGrp}>
-              <Image source={require('../../assets/img/muscle-buttons/arms-icon.png')} />
+              <Button onPress={Actions.arms} style={styles.muscleGrpTxt}>
+                <Image source={require('../../assets/img/muscle-buttons/arms-icon.png')} />
+                </Button>
               <Button onPress={Actions.arms} style={styles.muscleGrpTxt}>Arms</Button>
             </View>
             <View style={styles.muscleIconTextGrp}>
+              <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>
               <Image source={require('../../assets/img/muscle-buttons/back-icon.png')} />
+              </Button>
               <Button onPress={Actions.backs} style={styles.muscleGrpTxt}>Back</Button>
             </View>
           </View>
           <View style={styles.muscleContainerCenter}>
             <View style={styles.muscleIconTextGrp}>
+              <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>
               <Image source={require('../../assets/img/muscle-buttons/chest-icon.png')} />
+              </Button>
               <Button onPress={Actions.chest} style={styles.muscleGrpTxt}>Chest</Button>
             </View>
           </View>
           <View style={styles.muscleContainerBottom}>
             <View style={styles.muscleIconTextGrp}>
+              <Button onPress={Actions.legs} style={styles.muscleGrpTxt}>
               <Image source={require('../../assets/img/muscle-buttons/legs-icon.png')} />
+              </Button>
               <Button onPress={Actions.legs} style={styles.muscleGrpTxt}>Legs</Button>
             </View>
             <View style={styles.muscleIconTextGrp}>
+              <Button onPress={Actions.shoulders} style={styles.muscleGrpTxt}>
               <Image source={require('../../assets/img/muscle-buttons/shoulders-icon.png')} />
+              </Button>
               <Button onPress={Actions.shoulders} style={styles.muscleGrpTxt}>Shoulders</Button>
             </View>
           </View>
