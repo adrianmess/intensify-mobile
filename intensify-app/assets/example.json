@@ -1,0 +1,39 @@
+{
+  "Arms" : [
+    {
+      "key" : "a",
+      "instruction" : "Bangladesh",
+      "image" : "https://raw.githubusercontent.com/mudassir21/server/master/img/bangladesh.jpg"
+    },
+    {
+      "key" : "b",
+      "instruction" : "Sports",
+      "image" : "https://raw.githubusercontent.com/mudassir21/server/master/img/sports.jpg"
+    },
+    {
+      "key" : "c",
+      "instruction" : "Politics",
+      "image" : "https://raw.githubusercontent.com/mudassir21/server/master/img/politics.jpg"
+    },
+    {
+      "key" : "d",
+      "instruction" : "Entertainment",
+      "image" : "https://raw.githubusercontent.com/mudassir21/server/master/img/entertainment.png"
+    },
+    {
+      "key" : "e",
+      "instruction" : "Economics",
+      "image" : "https://raw.githubusercontent.com/mudassir21/server/master/img/economics.jpg"
+    },
+    {
+      "key" : "f",
+      "instruction" : "Technology",
+      "image" : "https://raw.githubusercontent.com/mudassir21/server/master/img/technology.jpg"
+    },
+    {
+      "key" : "g",
+      "instruction" : "Others",
+      "image" : "https://raw.githubusercontent.com/mudassir21/server/master/img/m.jpg"
+    }
+  ]
+}
