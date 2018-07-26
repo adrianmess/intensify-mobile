@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {Platform, StyleSheet, Text, View, Image} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-
+import Router from './src/Router';
 import Header from './src/components/header';
 import Welcome from './src/components/welcome';
-import Router from './src/Router';
+
+
 
 const backgroundImg = require('./assets/img/login-bg-small.jpg');
-const data = require('./assets/workouts.json')
 
 type Props = {};
 export default class App extends Component<Props> {
